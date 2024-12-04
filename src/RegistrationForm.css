@@ -1,0 +1,109 @@
+/* Center the form container on the page */
+.form-container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    max-width: 500px; /* Increased width for better appearance */
+    width: 90%; /* Allow flexibility on smaller screens */
+    margin: 20px auto; /* Centered vertically and horizontally */
+    text-align: center;
+  }
+  
+  /* Styling the form title */
+  h2 {
+    color: #333;
+    margin-bottom: 25px;
+    font-size: 1.8rem;
+  }
+  
+  /* Styling form fields and labels */
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  
+  /* Button styling */
+  button {
+    background-color: #3498db;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Error message styling */
+  .error {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 5px;
+  }
+  
+  /* Success message styling */
+  .success-message {
+    color: green;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+  
+  /* Password strength feedback */
+  .password-strength {
+    font-size: 0.9rem;
+    margin-top: 5px;
+    font-weight: bold;
+  }
+  
+  .password-strength.weak {
+    color: red;
+  }
+  
+  .password-strength.medium {
+    color: orange;
+  }
+  
+  .password-strength.strong {
+    color: green;
+  }
+  
+  /* Improve form appearance on larger screens */
+  @media (min-width: 768px) {
+    .form-container {
+      padding: 40px;
+      max-width: 600px;
+    }
+  }
+  
+  /* For very large screens */
+  @media (min-width: 1200px) {
+    .form-container {
+      padding: 50px;
+      max-width: 700px;
+    }
+  
+    h2 {
+      font-size: 2rem;
+    }
+  }  
